@@ -1,13 +1,13 @@
+/* FONT IMPORT */
+
+@font-face {
+  font-family: 'Horsham';
+  src: url('./assets/horsham.otf') format('opentype');
+}
+
 /* ARTICLE CSS */
 body {
   margin: 0px;
-}
-
-.hanken-grotesk {
-  font-family: "Hanken Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
 }
 
 .editorial-container {
@@ -30,14 +30,14 @@ body {
 h1 {
   font-size: 50px;
   margin-bottom: 8px;
-  font-family: "Hanken Grotesk", sans-serif;
+  font-family: "Horsham", serif;
 }
 
 h3 {
   font-size: 30px;
   text-align: center;
   margin-bottom: 0px;
-  font-family: "Hanken Grotesk", sans-serif;
+  font-family: "Horsham", serif;
 }
 
 p {
@@ -91,7 +91,7 @@ p {
 }
 
 .divider {
-  width: 50%;
+  width: 35%;
   padding-top: 3vh;
   margin: 0 auto 10vh auto;
   border-bottom: 1px solid black;
@@ -209,6 +209,12 @@ iframe,
 img,
 video {
   max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #D99A57;
 }
 
 .step-highlighter {
