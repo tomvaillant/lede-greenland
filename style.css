@@ -153,6 +153,10 @@ p {
   .divider {
     margin-bottom: 5vh;
   }
+  .hero-content {
+    margin: 0 auto 3rem auto;
+    text-align: center;
+  }
 }
 
 /* SCROLLY CSS */
